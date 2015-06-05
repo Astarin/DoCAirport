@@ -1,0 +1,22 @@
+﻿<div class="col-md-10">
+    <div class="title">Overview AirportPersonel</div>
+    <div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <td>Lastname</td>
+                    <td>Id</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="object in list">
+                    <td>{{object.Lastname}}</td>
+                    <td>{{object.Id}}</td>
+                    <td><a ng-click="info(object)">Info</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+

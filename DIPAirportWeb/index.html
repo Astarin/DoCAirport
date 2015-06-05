@@ -1,0 +1,57 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html ng-app="app">
+<head>
+    <title>Airport</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/ui-bootstrap-csp.css" rel="stylesheet" />
+    <link href="Content/CustomCss.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Airport</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#/">Home</a></li>
+                        <li><a href="#/airportPersonel">AirportPersonel</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+<div class="container" style="width: 75%">
+    <img src="images/bg/header_image.jpg"/>
+    <div ng-view=ng-view></div>
+</div>
+
+<!-- #footer end -->
+<script src="Scripts/jquery-1.9.1.js"></script>
+<script src="Scripts/angular.js"></script>
+<script src="Scripts/angular-route.js"></script>
+<script src="Scripts/angular-ui/ui-bootstrap-tpls.js"></script>
+<script src="Scripts/angular-ui/ui-bootstrap.js"></script>
+<!--<!--Modules-->
+<script src="App/app.js"></script>
+<script src="Scripts/angular-local-storage.js"></script>
+<script src="App/authInterceptorService.js"></script>
+<script src="App/authService.js"></script>
+<!--Services-->
+<script src="App/AirportPersonel/Services/AirportPersonelSvc.js"></script>
+<!--Controllers-->
+<script src="App/Home/Controllers/HomeCtrl.js"></script>
+<script src="App/AirportPersonel/Controllers/OverviewCtrl.js"></script>
+<script src="App/AirportPersonel/Controllers/EditAirportPersonModalCtrl.js"></script>
+</body>
+</html>

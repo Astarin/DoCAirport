@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DipAirportDOM", "DipAirportDOM\DipAirportDOM.csproj", "{3FA626B7-6E11-4100-A1AA-D633F4BB2A81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DipAirportDAL", "DipAirportDAL\DipAirportDAL.csproj", "{763C61D7-FAE3-4C24-A6AA-ADCC26347B94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIPAirportWeb", "DIPAirportWeb\DIPAirportWeb.csproj", "{31DEE8AA-36F9-4C26-BA2D-E171B2DF2F29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DipAirportAPI", "DipAirportAPI\DipAirportAPI.csproj", "{7E80C517-2654-41DB-803C-1CC66EB6F18C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FA626B7-6E11-4100-A1AA-D633F4BB2A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA626B7-6E11-4100-A1AA-D633F4BB2A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA626B7-6E11-4100-A1AA-D633F4BB2A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA626B7-6E11-4100-A1AA-D633F4BB2A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{763C61D7-FAE3-4C24-A6AA-ADCC26347B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763C61D7-FAE3-4C24-A6AA-ADCC26347B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763C61D7-FAE3-4C24-A6AA-ADCC26347B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763C61D7-FAE3-4C24-A6AA-ADCC26347B94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31DEE8AA-36F9-4C26-BA2D-E171B2DF2F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DEE8AA-36F9-4C26-BA2D-E171B2DF2F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DEE8AA-36F9-4C26-BA2D-E171B2DF2F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DEE8AA-36F9-4C26-BA2D-E171B2DF2F29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E80C517-2654-41DB-803C-1CC66EB6F18C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E80C517-2654-41DB-803C-1CC66EB6F18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E80C517-2654-41DB-803C-1CC66EB6F18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E80C517-2654-41DB-803C-1CC66EB6F18C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
