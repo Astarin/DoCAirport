@@ -10,9 +10,9 @@ namespace DipAirportAPI
     {
         private Database _database;
 
-        public AirportDatabaseCommunicator(Database database)
+        public AirportDatabaseCommunicator()
         {
-            _database = database // Injection
+            _database = new Database();
         }
 
         public void EditAirportPersonel(IAirportPersonelEdit person)
